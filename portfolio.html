@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <!--=============HEADER-ШАПКА==============-->
+    <header class="header">
+      <div class="contanier">
+        <nav class="navigation">
+          <a class="webstudio" href="./index.html">
+            <span class="web">Web</span>Studio</a
+          >
+          <ul class="navigation__list">
+            <li class="navigation__item">
+              <a href="./index.html">Студия</a>
+            </li>
+            <li class="navigation__item">
+              <a class="current" href="./portfolio.html">Портфолио</a>
+            </li>
+            <li class="navigation__item">
+              <a href="./index.html">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+        <!--__________adress-contact___________-->
+        <address class="adress">
+          <ul class="navigation">
+            <li class="navigation__item">
+              <a href="tel:380961111111">
+                <svg>
+                  <use href="./images/sprite.svg#tel"></use></svg
+                >+380961111111</a
+              >
+            </li>
+            <li class="navigation__item">
+              <a href="mailto:info@devstudio.com">
+                <svg>
+                  <use href="./images/sprite.svg#mail"></use>
+                </svg>
+                info@devstudio.com</a
+              >
+            </li>
+          </ul>
+        </address>
+      </div>
+    </header>
+    <!--==========GALERY FOR PORTFOLIO=========-->
+    <main>
+      <section class="galery">
+        <div class="contanier">
+          <ul class="galery__btn-list">
+            <li><button class="galery__btn" type="button">Все</button></li>
+            <li>
+              <button class="galery__btn" type="button">Веб-сайты</button>
+            </li>
+            <li>
+              <button class="galery__btn" type="button">Приложения</button>
+            </li>
+            <li><button class="galery__btn" type="button">Дизайн</button></li>
+            <li>
+              <button class="galery__btn" type="button">Маркетинг</button>
+            </li>
+          </ul>
+          <!--================GALERY================-->
+          <div class="galery__portfolio">
+            <ul class="galery__card-list">
+              <!-- технокряк -->
+              <li class="galery__card-item">
+                <div class="galery__item">
+                  <a href="#">
+                    <div class="galery__wrapper">
+                      <img src="./images/img-7.jpg" alt="Технокряк" />
+                    </div>
+                    <div class="galery__footer-card">
+                      <h2 class="galery__category--name">Технокряк</h2>
+                      <p class="galery__category">Веб-сайт</p>
+                    </div>
+                    <div class="overlay">
+                      <p class="text-overlay">
+                        Технокряк это современная площадка распространения
+                        коронавируса. Компании используют эту платформу для
+                        цифрового шпионажа и атак на защищённые сервера
+                        конкурентов.
+                      </p>
+                    </div>
+                  </a>
+                </div>
+              </li>
+              <!-- постер New Orlean... -->
+              <li class="galery__card-item">
+                <div class="galery__item">
+                  <a href="#">
+                    <div class="galery__wrapper">
+                      <img
+                        src="./images/img-8.jpg"
+                        alt="Постер New Orlean vs Golden Star"
+                      />
+                    </div>
+                    <div class="galery__footer-card">
+                      <h2 class="galery__category--name">
+                        Постер New Orlean vs Golden Star
+                      </h2>
+                      <p class="galery__category">Дизайн</p>
+                    </div>
+                    <div class="overlay"><p class="text-overlay"></p></div>
+                  </a>
+                </div>
+              </li>
+              <!-- ресторан Seafood -->
+              <li class="galery__card-item">
+                <div class="galery__item">
+                  <a href="#">
+                    <div class="galery__wrapper">
+                      <img src="./images/img-9.jpg" alt="Ресторан Seafood" />
+                    </div>
+                    <div class="galery__footer-card">
+                      <h2 class="galery__category--name">Ресторан Seafood</h2>
+                      <p class="galery__category">Приложение</p>
+                    </div>
+                    <div class="overlay"><p class="text-overlay"></p></div>
+                  </a>
+                </div>
+              </li>
+              <!-- проект Prime -->
+              <li class="galery__card-item">
+                <div class="galery__item">
+                  <a href="#">
+                    <div class="galery__wrapper">
+                      <img src="./images/img-10.jpg" alt="Проект Prime" />
+                    </div>
+                    <div class="galery__footer-card">
+                      <h2 class="galery__category--name">Проект Prime</h2>
+                      <p class="galery__category">Маркетинг</p>
+                    </div>
+                  </a>
+                </div>
+              </li>
+              <!-- проект Boxes -->
+              <li class="galery__card-item">
+                <div class="galery__item">
+                  <a href="#">
+                    <div class="galery__wrapper">
+                      <img src="./images/img-11.jpg" alt="Проект Boxes" />
+                    </div>
+                    <div class="galery__footer-card">
+                      <h2 class="galery__category--name">Проект Boxes</h2>
+                      <p class="galery__category">Приложение</p>
+                    </div>
+                  </a>
+                </div>
+              </li>
+              <!-- Inspiration... -->
+              <li class="galery__card-item">
+                <div class="galery__item">
+                  <a href="#">
+                    <div class="galery__wrapper">
+                      <img
+                        src="./images/img-12.jpg"
+                        alt="Inspiration has no Borders"
+                      />
+                    </div>
+                    <div class="galery__footer-card">
+                      <h2 class="galery__category--name">
+                        Inspiration has no Borders
+                      </h2>
+                      <p class="galery__category">Веб-сайт</p>
+                    </div>
+                  </a>
+                </div>
+              </li>
+              <!--издание Limited Edition -->
+              <li class="galery__card-item">
+                <div class="galery__item">
+                  <a href="#">
+                    <div class="galery__wrapper">
+                      <img
+                        src="./images/img-13.jpg"
+                        alt="Издание Limited Edition"
+                      />
+                    </div>
+                    <div class="galery__footer-card">
+                      <h2 class="galery__category--name">
+                        Издание Limited Edition
+                      </h2>
+                      <p class="galery__category">Дизайн</p>
+                    </div>
+                  </a>
+                </div>
+              </li>
+              <!-- проект LAB -->
+              <li class="galery__card-item">
+                <div class="galery__item">
+                  <a href="#">
+                    <div class="galery__wrapper">
+                      <img src="./images/img-14.jpg" alt="Проект LAB" />
+                    </div>
+                    <div class="galery__footer-card">
+                      <h2 class="galery__category--name">Проект LAB</h2>
+                      <p class="galery__category">Маркетинг</p>
+                    </div>
+                  </a>
+                </div>
+              </li>
+              <!-- Growing Business -->
+              <li class="galery__card-item">
+                <div class="galery__item">
+                  <a href="#">
+                    <div class="galery__wrapper">
+                      <img src="./images/img-15.jpg" alt="Growing Business" />
+                    </div>
+                    <div class="galery__footer-card">
+                      <h2 class="galery__category--name">Growing Business</h2>
+                      <p class="galery__category">Приложение</p>
+                    </div>
+                  </a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!--=============FOOTER-ПОДВАЛ=============-->
+    <footer class="footer">
+      <div class="contanier">
+        <!--______FOOTER-ADRESS_____-->
+        <address class="footer__item-adress">
+          <div class="adress-list">
+            <a class="webstudio" href="./index.html">
+              <span class="web">Web</span>Studio</a
+            >
+            <!--______FOOTER-ADRESS_____-->
+            <ul class="footer__adress">
+              <li class="adress-link">
+                <a href="https://goo.gl/maps/2c2kjHNSKJ136nSG8" target="_blank">
+                  г. Киев, пр-т Леси Украинки, 26
+                </a>
+              </li>
+              <li class="adress-link">
+                <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+              </li>
+              <li class="adress-link">
+                <a href="tel:380961111111"> +380961111111 </a>
+              </li>
+            </ul>
+          </div>
+        </address>
+        <!--____JOIN-LINKS-->
+        <div class="join-link">
+          <h2 class="join">ПРИСОЕДИНЯЙТЕСЬ</h2>
+          <ul class="social-list-link">
+            <li>
+              <a class="social-link" href="https://www.instagram.com/">
+                <svg>
+                  <use href="./images/sprite.svg#instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a class="social-link" href="https://www.facebook.com/">
+                <svg>
+                  <use href="./images/sprite.svg#facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a class="social-link" href="https://www.twitter.com">
+                <svg>
+                  <use href="./images/sprite.svg#twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a class="social-link" href="https://www.linkedin.com">
+                <svg>
+                  <use href="./images/sprite.svg#linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <!--____MAILING____-->
+        <div class="mailing">
+          <h2 class="mailing-title">ПОДПИШИТЕСЬ НА РАССЫЛКУ</h2>
+          <div class="mailing-mail">
+            <input type="email" class="mailing-contact" placeholder="E-mail" />
+            <button type="submit" class="mailing-btn">
+              Подписаться
+              <svg class="icon-send">
+                <use href="./images/sprite.svg#send"></use>
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
