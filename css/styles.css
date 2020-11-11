@@ -585,7 +585,7 @@ ol {
   color: rgba(255, 255, 255, 0.6);
 }
 /* ______JOIN-LINKS______ */
-.join-link {
+.join-links {
   margin-left: 70px;
   margin-right: 93px;
   width: 206px;
@@ -630,18 +630,15 @@ ol {
   justify-content: start;
 }
 .mailing-contact {
-  padding-left: 16px;
-  padding-top: 10px;
+  padding-left: 12px;
   width: 358px;
   outline: none;
   background-color: transparent;
+  color: var(--color-white);
   border: 1px solid rgba(255, 255, 255, 0.3);
   box-sizing: border-box;
   border-radius: 4px;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-}
-.mailing-contact::placeholder {
-  padding-left: 12px;
 }
 .mailing-btn {
   margin-left: 12px;
@@ -718,18 +715,15 @@ ol {
 }
 .galery__card-item {
   width: 370px;
-  margin-bottom: 30px;
-  position: relative;
-  overflow: hidden;
 }
-/* .galery__wrapper {
+.galery__wrapper {
   position: relative;
   overflow: hidden;
-} */
+  display: block;
+}
 .galery__item {
-  width: 370px;
-  height: 404px;
-  box-sizing: border-box;
+  display: block;
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .galery__card-item:not(:nth-child(3n)) {
   margin-right: 30px;
@@ -740,6 +734,8 @@ ol {
 }
 .galery__card-item:hover .overlay {
   opacity: 1;
+  top: 0;
+  left: 0;
   visibility: visible;
   pointer-events: auto;
   transform: translateY(0%);
@@ -752,7 +748,7 @@ ol {
   border-right: 1px solid #eeeeee;
   border-left: 1px solid #eeeeee;
 }
-.galery__category--name {
+.galery__name {
   font-size: 18px;
   line-height: 2;
   font-weight: 700;
@@ -765,7 +761,7 @@ ol {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.875;
-  font-weight: 500;
+  font-weight: 400;
   letter-spacing: 0.03em;
 
   color: var(--color-grey);
